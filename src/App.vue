@@ -2,16 +2,18 @@
  <div>
     <page-head></page-head>
     <page-main></page-main>
+    <page-foot></page-foot>
  </div>
 </template>
 
 <script>
 import PageHeadVue from './components/PageHead.vue';
 import PageMainVue from './components/PageMain.vue';
+import PageFootVue from './components/PageFoot.vue';
 export default {
   name: 'App',
   components: {
-    PageHeadVue, PageMainVue
+    PageHeadVue, PageMainVue, PageFootVue
   }
 }
 </script>
